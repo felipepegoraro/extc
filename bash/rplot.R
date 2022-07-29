@@ -9,7 +9,7 @@ newdf <- df %>%
             ifelse(percent < 5 | name == "makefile", count,
             ifelse(NA)))
 
-perc_others <- sum(newdf$others, na.rm=TRUE)/sum(newdf$count)
+perc_others <- 100*sum(newdf$others, na.rm=TRUE)/sum(newdf$count)
 
 gp1 <- newdf %>% 
   filter(is.na(others)) %>% 
