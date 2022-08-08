@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * Felipe Pegoraro, 22/06/2022
+ * Felipe Pegoraro, 22/07/2022
  * rewriting the cat command
  * (buffered version)
 */
