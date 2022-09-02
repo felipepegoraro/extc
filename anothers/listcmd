@@ -1,0 +1,8 @@
+gcc
+perf
+spell
+strace
+strip
+hexdump
+objdump
+gdb
