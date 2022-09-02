@@ -10,7 +10,7 @@
 // function pointer, and threads in C ...
 // ~$: gcc -pthread -o c c.c
 
-bool isdone = false;
+volatile bool isdone = false;
 
 void f(){printf(" + running the function f()\n"); sleep(3);}
 void g(){printf(" + running the function g()\n"); sleep(3);}
