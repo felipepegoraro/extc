@@ -1,2 +1,2 @@
-./clang/bin
+./clang/bin/*
 *.pdf
